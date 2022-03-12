@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-HK">
+<meta charset="utf-8">
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Foundation</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/foundation/5.5.3/css/foundation.min.css">
+  <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/foundation/5.5.3/js/foundation.min.js"></script>
+  <script src="https://cdn.staticfile.org/foundation/5.5.3/js/vendor/modernizr.js"></script>
+</head>
+<body>
+<div class="off-canvas-wrap" data-offcanvas>
+  <div class="inner-wrap">
+    <nav class="tab-bar">
+      <section class="left-small">
+        <a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
+      </section>
+
+      <section class="middle tab-bar-section">
+        <h2 class="title"><STRONG>IT helpdesk自助救助站</STRONG>-自己救自己的自娛自樂</h2>
+      </section>
+    </nav>
+
+    <aside class="left-off-canvas-menu">
+      <ul class="off-canvas-list test">
+        <li><label>Heading</label></li>
+        <li><a href="http://10.0.0.186/contactlist/contactlist_pix.aspx" target="blank">美聯通訊錄</a></li>
+        <li><a href="http://10.0.0.186/contactlist/hkp_contactlist.aspx" target="blank">港置通訊錄</a></li>
+        <li><a href="http://10.0.0.186/contactlist/ici_contactlist.aspx" target="blank">工商通訊錄</a></li>
+        <li><a href="http://home.midland.com.hk/sa/org_chart/default.asp" target="blank">美聯人手分配</a></li>
+        <li><a href="http://home.hkp.com.hk/hrd/dept_info/default.asp?dept_code=sa&funct_code=org_chart" target="blank">港置人手分配</a></li>
+        <li><a href="https://www.dnc.gov.hk/tm/download" target="blank">通訊事務局封鎖廣告</a></li>
+        <li><a href="https://www.portal.hktenterprisesolutions.com/login" target="blank">登入HKT</a></li>
+        <li><a href="http://home.midland.com.hk/it/photo_db/default.asp" target="blank">美聯相片資料庫</a></li>
+        <li><a href="http://10.0.0.181/hkp_photo_db/default.aspx" target="blank">港置相片資料庫</a></li>
+        <li><a href="https://www.ofca.gov.hk/tc/consumer_focus/guide/others/uemo/unsubscribe/index.html" target="blank">拒收訊息登記冊</a></li>
+        <li><a href="http://10.0.10.74/m1StockCheck/" target="blank">最新STOCK CHECK</a></li>
+        <li><a href="http://10.0.10.122/m1StockCheck/Default" target="blank">舊時STOCK CHECK</a></li>
+        <li><a href="https://servicedesk.midland.com.hk/HomePage.do?logout=true&logoutSkipNV2Filter=true" target="blank">ME</a></li>
+        <li><a href="https://ap-east-1.console.aws.amazon.com/systems-manager/resource-groups/cloudwatch?dashboard=M1_prod_CPU&region=ap-east-1#" target="blank">M1及放盤易SEVER</a></li>
+      </ul>
+    </aside>
+    
+    <section class="main-section">
+      
+      <p align="right">抄考的不僅是技術，更是自娛自樂的快樂!!!</p>
+    </section>
+
+    <a class="exit-off-canvas"></a>
+
+  </div>
+</div>
+
+<!-- 初始化 Foundation JS -->
+<script>
+$(document).ready(function() {
+    $(document).foundation();
+})
+</script>
+
+</body>
+
+
+
+
+<section>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.88.1">
+
+  <!-- Bootstrap core CSS -->
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+<body>
+    
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="bootstrap" viewBox="0 0 118 94">
+      <title>Bootstrap</title>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"></path>
+    </symbol>
+    <symbol id="home" viewBox="0 0 16 16">
+      <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
+    </symbol>
+    <symbol id="speedometer2" viewBox="0 0 16 16">
+      <path d="M8 4a.5.5 0 0 1 .5.5V6a.5.5 0 0 1-1 0V4.5A.5.5 0 0 1 8 4zM3.732 5.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 10a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 10zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 9.31a.91.91 0 1 0 1.302 1.258l3.434-4.297a.389.389 0 0 0-.029-.518z"/>
+      <path fill-rule="evenodd" d="M0 10a8 8 0 1 1 15.547 2.661c-.442 1.253-1.845 1.602-2.932 1.25C11.309 13.488 9.475 13 8 13c-1.474 0-3.31.488-4.615.911-1.087.352-2.49.003-2.932-1.25A7.988 7.988 0 0 1 0 10zm8-7a7 7 0 0 0-6.603 9.329c.203.575.923.876 1.68.63C4.397 12.533 6.358 12 8 12s3.604.532 4.923.96c.757.245 1.477-.056 1.68-.631A7 7 0 0 0 8 3z"/>
+    </symbol>
+    <symbol id="table" viewBox="0 0 16 16">
+      <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm15 2h-4v3h4V4zm0 4h-4v3h4V8zm0 4h-4v3h3a1 1 0 0 0 1-1v-2zm-5 3v-3H6v3h4zm-5 0v-3H1v2a1 1 0 0 0 1 1h3zm-4-4h4V8H1v3zm0-4h4V4H1v3zm5-3v3h4V4H6zm4 4H6v3h4V8z"/>
+    </symbol>
+    <symbol id="people-circle" viewBox="0 0 16 16">
+      <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+      <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+    </symbol>
+    <symbol id="grid" viewBox="0 0 16 16">
+      <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/>
+    </symbol>
+  </svg>
+
+
+  
+  <!-- Custom styles for this template -->
+  <link href="headers.css" rel="stylesheet">
+</section>
+
+
+  <header>
+    
+    <div class="px-3 py-2 bg-dark text-white">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+            
+          <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+            
+            <nav class="menu">
+              <CENTER>
+             
+
+              <a href="homepage.HTML" class="nav-link text-secondary">
+                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#home"/></svg>
+                Home
+              </a>
+            
+              <a href="dashboard.html" class="nav-link text-white">
+                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#speedometer2"/></svg>
+                Dashboard
+              </a>
+            
+              <a href="常用電話.HTML" class="nav-link text-white">
+                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#table"/></svg>
+                Contact
+              </a>
+            
+              <a href="關於本站.HTML" class="nav-link text-white">
+                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid"/></svg>
+                About
+              </a>
+            
+              <a href="新手村.HTML" class="nav-link text-white">
+                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#people-circle"/></svg>
+                Customers Q&A and Drill
+              </a>
+            
+          </ul>
+        </nav>
+      </CENTER>
+        </div>
+      </div>
+    </div>
+    <body>
+     
+<tittle>天下無難成之事</tittle>
+<body>
+      
+  <input type="search" id="mySearch" placeholder="Search for something..">
+  
+  
+  
+  <button onclick="myFunction()">Search</button>
+  
+  <p id="demo"></p>
+  
+  <script>
+  function myFunction() {
+    var x = document.getElementById("mySearch").placeholder;
+    document.getElementById("demo").innerHTML = x;
+  }
+  </script>
+  
+  </body>
+    </form>    
+<p>You can settle problems in an easy way</p>
+<P>
+<PRE>
+美聯物業, 安心在港置業
+工商I SEE SEE, 創業 SO EASY!
+</PRE>
+</P>
+
+    
+        <div class="text-end">
+          <button type="button" class="btn; align:right">Login</button>
+          <button type="button" class="btn; align:right">Sign-up</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+</main>
+
+  </body>
+</html>
+
+<center>
+<H1>基本概念及查詢捷徑</H1>
+
+<BODY>
+<table>
+  <tr>
+    <td>手機應用應用程式</td>
+    <td>電腦應用程式</td>
+    <td>電郵有關問題</td>
+    <td>上網問題</td>
+    <td>硬件問題</td>
+    <td>網絡問題</td>
+    <TD>其他</TD>
+  </tr>
+  <tr>
+    <td><a href="M ONE MOBLE.html">M ONE MOBLE<a/></td>
+    <td><a href="M ONE WEB.html">M ONE WEB<a/></td>
+    <td><a href="UM.HTML">UM<a/></td>
+    <td><a href="指定標籤.html">指定標籤<a/></td>
+    <td><a href="Router.HTML">Router問題<a/></td> 
+<td><a href="網絡供應商.html">網絡供應商<a/>
+  <TH><a href="AMD11.HTML">AMD11<a/></TH>
+
+</td>
+  
+    
+  </tr>
+  <tr>
+    <td><a href="開單易.HTML">開單易<a/></td>
+    <td><a href="MRMS.html">MRMS<a/></td>
+    <td><a href="CMD-CD wget.html">CMD /CD wget<a/></td>
+    <td><a href="EAA.html">EAA<a/></td>
+    <td><a href="列印機.html">列印機<a/></td>
+<TD><a href="DNS.html">DNS<a/></TD>
+<TD><a href="一手盤.html">一手盤<a/></TD>
+  </tr>
+  <tr>
+    <td><a href="放盤易.html">放盤易<a/></td>
+    <td><a href="UNICORN.HTML">UNICORN<a/></td>
+    <td><a href="各級EMAIL類型.HTML">各級EMAIL類型<a/></td>
+    <td><a href="如何將M NUMBER轉成AA.HTML">如何將M NUMBER轉成AA<a/></td>
+    <td><a href="平板電腦.HTML">平板電腦<a/></td>
+
+  </tr>
+<tr>
+    <td><a href="美聯APP STORE.html">美聯APP STORE<a/></td>
+    <td><a href="ISFnDRP.HTML">ISF/DRP<a/></td>
+    <td><a href="新增EMAIL例子.html">新增EMAIL例子<a/></td>
+    <td><a href="查冊及資訊聆.HTML">查冊及資訊聆<a/></td>
+    <td><a href="主機螢幕唔著.HTML">主機或螢幕唔著<a/></td>
+  </tr>
+<TR>
+<td><a href="M1 打電話.html">M1 打電話<a/></td>
+<td><a href="代理CHAT.html">代理CHAT<a/></td>
+</TR>
+
+</table>
+</BODY>
+</center>
+</hr>
+
+
+  
+  <hr>
+  <head>
+  <style>
+    table,td,th
+    {
+      border:1px solid black;
+    }
+    table
+    {
+      width:70%;
+    }
+    th
+    {
+      height:60px;
+    }
+    </style>
+    </head>
+
+
+<H3>常見問題</H3>
+<HR>
+<section>
+<article>
+<p><i>常見問題?</i></p>
+
+<ul>
+<li>Q1. M ONE 手機版 可以將樓盤轉為C盤嗎?</li>
+<li>Q2. 什麼是已剔除</li>
+<li>Q3. 廚房、浴室、衣帽間是指定標籤嗎?</li>
+<li>Q4. 為什麼我可以登入MRMS 但入唔到M ONE</li>
+<li>Q5. 點解我轉完TEAM之後, 用唔到某D手機APP?<//i>
+<li>Q6. 佢話我手機程式未係手機登出, 但我已經入唔返點算?</li>
+<li>Q7. 放盤易無法搜尋某個樓盤, 于是無法遞交</li>
+<li>Q8. 如果同事可以入到PULL MAIL, 但無法收發可以點做?</li>
+<li>Q9. 我M1用得好慢點算?</li>
+<li>Q10. 點解QR CODE打卡打唔到既</li>
+</ul>
+</article>
+</section>
+<hr>
+
+<section>
+<article>
+<p>常用回答?</p>
+
+<ol>
+<li>ANS.1 不能, 只可以使用網頁版轉</li>
+<li>ANS.2 通常是, 你的樓盤將會出到街網但仍未, 其中一個可能是距離最後更新不足2小時</li>
+<li>ANS.3 不是, 所以你很可能未有足夠的指定標籤; 如你更改了其中的標籤種類, 你需要重新選擇相片予主管再審批, 或者你需要刪除所有舊相, 重新選擇具有3種或以上指定標籤的相片, 重新遞交予主管審批</li>
+<li>ANS.4 M ONE 可以係密碼入多於8個位, 但密碼DEFAUL左最多8個位</li>
+<li>ANS.5 你有無係美聯APPSTORE 都進行了登出, 並使用新TEAM CODE 登入? 如果有, 試下重新安裝D手機APP</li>
+<li>ANS.6 你可以係內聯網, 搵返資訊科技部, 管理登入裝置</li>
+<li>ANS.7 轉成現盤後, 30分鐘之後才會出現</li>
+<li>ANS.8 首先CHECK左佢既WEBMAIL入唔入到先</li>
+<li>ANS.9 同事請試下清cookie:開chorme->右上角「...」->「設定」->「清除瀏覽紀錄」</li>
+<li>ANS.10 
+試試以下方法
+1.打開開單易 (手機定位要開左)
+2.右上角->打卡
+3.load ->「請打開定位服務」
+4.出手機桌面，開GOOGLE MAP，按定位
+5.定位完後回到開單易->按掃瞄QR CODE
+</li>
+</ol>
+</hr>
+</article>
+</section>
+<HR>
+<body>
+	<span>Contact Us</span>
+	<address>長沙灣永康街福源廣場21樓</address><br>
+	<TEL>it部電話:
+	+85222736666
+        </TEL><br>
+	<Whatsapp><a href='https://api.whatsapp.com/send?phone=85257209950'> Whatsapp+852-57209950</a></Whatsapp><br>
+	
+<BODY>IT HELPDESK EMAIL</BODY>
+<!-- Script to return selected option value -->
+    <script> 
+        function myGeeks() { 
+            var ind = document.getElementById("GFG").selectedIndex; 
+            var opt = document.getElementsByTagName("option")[ind].value; 
+            document.getElementById("sudo").innerHTML = opt; 
+        } 
+    </script> 
+
+<div>
+    <span id="option value()"> it_helpdesk@midland.com.hk</span>
+	<button onClick="copyFn()">點擊複製</button>
+</div>
+<script>
+	function copyFn() {
+		var val = document.getElementById('option value()');
+		window.getSelection().selectAllChildren(val);
+		document.execCommand("Copy");
+		alert("已複製，可粘貼。");
+	}
+</script>
+
+
+</body>
+</hr>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UFT-8:/>
+<script type="text/javascript">
+
+<div id="top"> 
+<a href="#TOP">回到頂部<a/>
+<div id="top"> 
+</div>
+</html>
+</body>
